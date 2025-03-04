@@ -1,7 +1,6 @@
 
 # LoLStatX
 
-A brief description of what this project does and who it's for
 
 This project is mainly for *League Of Legends* **(LOL)** players and enthusiasts.
 By providing your account name, tagline, and region you will have three choices:
