@@ -6,6 +6,7 @@ A brief description of what this project does and who it's for
 This project is mainly for *League Of Legends* **(LOL)** players and enthusiasts.
 
 We have different folders in this repo, let's explain briefly each one:
+
 **Get Matches**
 Collecting relevant games data from riot API provided from riot games, here we are navigating through played games to collect them in a DataFrame to be used in training the model, looping over players Puuids (unique identifiers for each player per API) with taking ratelimit in consideration (100 requests per 2 min) by implementing *sleepfunction*, also considering games only in Summoners' rift with healthy format (10 players exist per match).
 
@@ -15,7 +16,10 @@ Collecting relevant games data from riot API provided from riot games, here we a
 
 **Win Probability** Including model training, here concat all games from different divisions in one DataFrame, perform some important formating on the data, then implementing the model to feed it with this data, after finishing we compared different models (dicision tree, logistic regression, FFNN) by inspecting the weights and features and FFNN gave the most reasonable and logical weights and features, lastly we save the model to be used in the prediction process.
 
-**-------------------------Application Interface-------------------------**
+
+
+## Application Interface
+
 
 By providing your account name, tagline, and region you will have three choices:
 
