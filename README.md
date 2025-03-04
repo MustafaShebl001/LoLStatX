@@ -15,7 +15,7 @@ Collecting relevant games data from riot API provided from riot games, here we a
 
 **Win Probability** Including model training, here concat all games from different divisions in one DataFrame, perform some important formating on the data, then implementing the model to feed it with this data, after finishing we compared different models (dicision tree, logistic regression, FFNN) by inspecting the weights and features and FFNN gave the most reasonable and logical weights and features, lastly we save the model to be used in the prediction process.
 
-**Application Interface**
+**-------------------------Application Interface-------------------------**
 
 By providing your account name, tagline, and region you will have three choices:
 
@@ -26,3 +26,7 @@ By providing your account name, tagline, and region you will have three choices:
 **Predict Win Probability (Live Match):** uses a deeplearning model (FFNN) trained with almost 600,000 games collected from all rank divisions to predict your current win probability for given game objectives and player stats (almost 50 features used) and achieved over 97% accuracy on both dev and test set with almost 98% accuracy on training set.
 
 
+## External files for icons
+
+You need to download game icon images from profileicons, items, champions from the next link and replacing the **VERSION** with desired *LOL* version.
+https://ddragon.leagueoflegends.com/cdn/dragontail-{VERSION}.tgz
